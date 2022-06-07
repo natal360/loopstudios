@@ -15,7 +15,7 @@ const Menu = () => {
 
   return (
     // Hero Section 
-    <section id="hero">
+    <section className={s['hero-img']}>
       {/* Hero Container */}
       <div className="container max-w-6xl mx-auto px-6 py-12">
         {/* Menu/Logo Container */}
